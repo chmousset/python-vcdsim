@@ -180,7 +180,7 @@ path: examples/sample/sample.vcd
 
 int main(int argc, char **argv) {
 Verilated::commandArgs(argc, argv);
-Vthruwire *tb = new Vvcdsim;
+Vvcdsim *tb = new Vvcdsim;
 
 tb->logic_data=0b00000000;
 logic_data_valid=0;

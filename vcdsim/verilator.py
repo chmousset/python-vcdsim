@@ -18,7 +18,7 @@ cpp_header = """/*
 
 int main(int argc, char **argv) {{
 Verilated::commandArgs(argc, argv);
-Vthruwire *tb = new V{module_name};
+V{module_name} *tb = new V{module_name};
 
 """
 
