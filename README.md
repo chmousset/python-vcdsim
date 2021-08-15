@@ -235,5 +235,5 @@ endmodule
 ```
 
 # Using vcdsim with migen
-[Migen](https://github.com/m-labs/migen) is "A Python toolbox for building complex digital hardware" which has a DSL HDL
-and a build-in simulator. vcdsim can be used directly with migen simulator. See `examples/migen` directory.
+[Migen](https://github.com/m-labs/migen) is "A Python toolbox for building complex digital hardware" which has an HDL
+and a built-in simulator. vcdsim can be used directly with migen simulator. See `examples/migen` directory.
